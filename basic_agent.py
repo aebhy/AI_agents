@@ -26,6 +26,6 @@ agent = Agent(
 )
 
 # Run query
-query = "what is the capital of France?"
+query = "what is the capital of china?"
 result = Runner.run_sync(agent, query)
 print(result.final_output)
